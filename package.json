@@ -1,0 +1,33 @@
+{
+  "name": "serenity-dojo-supermarket-checkout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf coverage",
+    "test": "npm run clean && npm run test:coverage",
+    "test:coverage": "nyc mocha --opts ./mocha.opts",
+    "test:watch": "mocha --opts ./mocha.opts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serenity-dojo/kata-supermarket-checkout-typescript.git"
+  },
+  "author": "Jan Molak <jan.molak@serenity.io>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/serenity-dojo/kata-supermarket-checkout-typescript/issues"
+  },
+  "homepage": "https://github.com/serenity-dojo/kata-supermarket-checkout-typescript#readme",
+  "devDependencies": {
+    "@types/chai": "4.0.4",
+    "@types/mocha": "2.2.44",
+    "@types/node": "8.0.47",
+    "chai": "4.1.2",
+    "mocha": "4.0.1",
+    "nyc": "11.2.1",
+    "rimraf": "2.6.2",
+    "ts-node": "3.3.0",
+    "typescript": "2.5.3"
+  }
+}
