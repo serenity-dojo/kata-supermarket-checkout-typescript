@@ -21,7 +21,7 @@ These are just examples: the actual special deals change each week, so need to b
 
 ### Goal
 
-The goal of the exercise is to implement a `Teller` that can handle the following scenarios (and more - use your imagination!):
+The goal of the exercise is to implement a `Teller` (Cashier) that can handle the following scenarios (and more - use your imagination!):
 
  - The teller should be able to handle a shopping cart with no special deals
  - The client should get a receipt with the list of purchases and the total price.
